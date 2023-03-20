@@ -6,7 +6,7 @@ if number >= 0:
 else:
     eko = number % -10
 
-print(f"Last digit of {number} is {eko}")
+print("Last digit of {} is {}".format(number, eko), end='')
 
 if eko > 5:
     print(" and is greater than 5")
